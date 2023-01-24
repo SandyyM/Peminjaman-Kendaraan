@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+
+    <meta charset="utf-8">
+    <title>Peminjaman Kendaraan</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="Free HTML Templates" name="keywords">
+    <meta content="Free HTML Templates" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&family=Roboto:wght@400;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+    <!-- form builder -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <form>
+</head>
+
+<body>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="row">
+                    <div class="col-md-8">
+                        <h1 class="text-center">
+                            Rental Mobil Sahabat
+                        </h1>
+                    </div>
+                    <div class="col-md-2">
+                            <input class="form-control form-control-sidebar" type="search" placeholder="Search"
+                                aria-label="Search" width="50px">
+                    </div>
+                    <div class="col-md-2">
+                        <a href="#" style="text-align: center;">Login
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navbar Start -->
+    <div class="container-fluid sticky-top bg-white shadow-sm" style="margin: 0;">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg bg-white navbar-light py-3 py-lg-0">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div>
+                    <div class="col-sm-12">
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <ul class="nav">
+                                        <li class="nav-item">
+                                            <a class="nav-link active" href="home.html">Home</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="produk.html">Produk & Layanan</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="booking.html">Booking</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="berita.html">Berita</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="Tentangkami.html">Tentang Kami</a>
+                                        </li>
+                                        <div class="col-md-2 text-end">
+                                        </div>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <!-- Navbar End -->
+
+    <section style="margin: auto; position: relative; left: 30px; background-color: azure;">
+            <div class="container py-5">
+                <div class="row gx-5">
+                    <div class="col-md-12">
+                        <fieldset class="right">
+                            <nav>
+                                <ol class="breadcrumb" style="width: 300px;" >
+                                    <li class="breadcrumb-item">
+                                        <a href="#">Home</a>
+                                    </li>
+                                    <li class="breadcrumb-item">
+                                        <a href="#">Booking</a>
+                                </ol>
+                            </nav>
+                            <fieldset>
+                                <legend>
+                                    <a class="bk">Booking Kendaraan</a>
+                                    <hr>
+                                </legend>
+                                <table>
+                                    <tr>
+                                        <td><label for="kendaraan">Pilih Kendaraan</label></td>
+                                        <td>
+                                        :
+                                    
+                                            <select name="kendaraan" id="kenda" size="1">
+                                                <option>Pajero Sport</option>
+                                                <option>Toyota Innova 2017</option>
+                                                <option>Mitsubishi Triton</option>
+                                                <option>Daihatsu Taft</option>
+                                            </select>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td><label for="nama_peminjam">Nama Peminjam</label></td>
+                                        <td>
+                                            :
+                                            <input type="text" required id="nama_peminjam" size="40" >
+                                        </td> 
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <label>Kategori Peminjam</label>
+                                                <input type="checkbox"><label>Pribadi</label>
+                                                <input type="checkbox"><label>Perusahaan/Organisasi</label>
+                                        </td>
+                                    </tr>
+                                    
+                                    <tr>
+                                        <td>
+                                            Descripsi kebutuhan :
+                                            <td><textarea></textarea></td>
+                                        </td>
+                                    </tr>
+                                    
+                                    <tr>
+                                        <td>
+                                            <label for="tlahir">Tanggal Peminjam</label></td>
+                                        <td>
+                                            :
+                                            <input type="date" id ="tlahir" name ="tlahir" size ="40"placeholder="-pilih tanggal-"/>
+                                            s.d 
+                                            <input type="date" id ="tlahir" name ="tlahir" size ="40"placeholder="-pilih tanggal-"/><br>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <label>
+                                                Kontak Person
+                                            </label>
+                                        </td>
+                                        <td>
+                                            :
+                                            <input type="number" size="40">
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <label>
+                                                Telepon/HP
+                                            </label>
+                                        </td>
+                                        <td>
+                                            :
+                                            <input type="number" size="40">
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <label>
+                                                Email
+                                            </label>
+                                        </td>
+                                        <td>
+                                            :
+                                            <input type="email" size="40">
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <button>Submit</button>
+                                            <button>Reset</button>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </fieldset>
+                        </fieldset>  
+                    </div>
+                </div>
+            </div>
+            </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12 bg-secondary">
+            <footer class="Text light" style="font-size: 20px;">
+                Develop By Mahasiswa STT-NF @2022 TI 10 Kelompok 2
+            </footer>
+        </div>
+    </div>
+</body>
+
+</html>
